@@ -213,7 +213,8 @@ extends Component {
                 <Box>   
                   <Value 
                      label= {this.state.Dates[0]}
-                    value= {this.state.counts[index*3] + "   " + this.state.counts[(index*3)+1] + "  " + this.state.counts[(index*3)+2]}
+                    //value= {this.state.counts[index*3] + "   " + this.state.counts[(index*3)+1] + "  " + this.state.counts[(index*3)+2]}
+                    value={this.state.counts[index*2] + " " + this.state.counts[(index*3) + 2 + " " + this.state.counts[(index*4)]]}
                       align='start' />
             </Box> 
             </Box>
